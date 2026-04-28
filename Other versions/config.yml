@@ -1,0 +1,7 @@
+data_dir: "data"
+suppliers_csv: "suppliers.csv"
+report_dir: "reports"
+days_to_keep: 90
+ignored_ports: [80, 443]   # low risk, reduce noise
+high_risk_ports: [3389, 445, 1433, 3306, 5432, 22, 23]
+ransomware_groups: ["lockbit", "blackbasta", "akira", "play", "medusa"]  # expand as needed
